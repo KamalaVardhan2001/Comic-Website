@@ -1,0 +1,64 @@
+.cmc-list-cntr {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: calc(100vh - 8px);
+    /* for sticky div */
+    z-index: 1000;
+    position: fixed;
+    top: 8px;
+    left: 1070px;
+    width: 384px;
+}
+.cmc-list-cntr::-webkit-scrollbar {
+    width: 17px;
+}
+
+.cmc-list-cntr::-webkit-scrollbar-track {
+    background: #424242; /* Dark gray */
+}
+
+/* Thumb (the draggable part of the scrollbar) */
+.cmc-list-cntr::-webkit-scrollbar-thumb {
+    background: #686868; /* Medium gray */
+}
+
+/* Thumb hover effect */
+.cmc-list-cntr::-webkit-scrollbar-thumb:hover {
+    background: #7b7b7b; /* Darker gray on hover */
+}
+
+.cmc-card {
+    background-color: #343434;
+    padding: 8px;
+    color: white;
+    display: flex;
+    gap: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid white;
+    align-items: center;
+}
+
+.cmc-card-last {
+    border-bottom: none;
+}
+
+.cmc-card:hover {
+    filter: brightness(0.9);
+}
+
+.cmc-cvr-img {
+    height: 80px;
+    width: 60px;
+    object-fit: cover;
+}
+
+.comic-desc > * {
+    margin: 0;
+}
+
+.title {
+    font-weight: bold;
+}

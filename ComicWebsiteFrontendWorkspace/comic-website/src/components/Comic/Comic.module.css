@@ -1,0 +1,134 @@
+.comic-page-container {
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-sizing: border-box;
+}
+
+.desc-container {
+    color: white;
+    background-color: #343434;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    gap: 16px;
+}
+
+.chap-list-container {
+    background-color: #343434;
+    color: white;
+    padding: 8px;
+    flex: 1;
+}
+
+.cmts-container {
+    background-color: #343434;
+    color: white;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+}
+
+.desc {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.summ {
+    border-top: 1px solid black;
+    padding: 8px;
+}
+
+th, td {
+    padding: 8px;
+}
+
+.desc th {
+    font-size: 30px;
+}
+
+.post-cmnt {
+    width: 100%;
+}
+
+.post-cmnt > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.post-cmnt  textarea {
+    background-color: #343434;
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+}
+
+.cmts {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover-image {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.cmnt-cntr {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.cmnt-text-cntr {
+    display: flex;
+    flex-direction: column;
+}
+
+.cmnt-text-cntr > * {
+    margin: 0;
+}
+
+.cmnt-text-cntr > .cmtr-name {
+    font-weight: bold;
+}
+
+.cmnt-text-cntr > .cmnt-date {
+    font-size: x-small;
+}
+
+.prfl-icon-cntr {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    background-color: #f0f0f0;
+}
+
+.prfl-icon {
+    height: 30px;
+}
+
+.cmts-hdng {
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}

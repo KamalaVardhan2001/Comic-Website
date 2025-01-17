@@ -1,0 +1,176 @@
+.chptr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    width: 920px;
+    gap: 8px;
+}
+
+.chptr-page-cntr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 8px;
+    width: 100%;
+    gap: 16px;
+}
+
+.ctrls-container {
+    display: flex;
+    gap: 8px;
+    height: 40px;
+}
+
+.chkbx-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #0d6efd;
+}
+
+.tgl-btn {
+    background-color: #d2d2d2;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tgl-btn::before {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    margin: 2.5px;
+    transition: 0.2s;
+}
+
+input[type=checkbox]:checked + .tgl-btn {
+    background-color: #0d6efd;
+}
+
+input[type=checkbox]:checked + .tgl-btn::before {
+    transform: translateX(20px); 
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.cmc-img-cntr {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width:100%; 
+    height:100%;
+    object-fit: contain;
+}
+
+.cmts-container {
+    background-color: white;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+    width: 100%;
+}
+
+.desc {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.summ {
+    border-top: 1px solid black;
+    padding: 8px;
+}
+
+th, td {
+    padding: 8px;
+}
+
+.desc th {
+    font-size: 30px;
+}
+
+.post-cmnt {
+    width: 100%;
+}
+
+.post-cmnt > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.post-cmnt  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+}
+
+.cmts {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cmnt-cntr {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.cmnt-text-cntr {
+    display: flex;
+    flex-direction: column;
+}
+
+.cmnt-text-cntr > * {
+    margin: 0;
+}
+
+.cmnt-text-cntr > .cmtr-name {
+    font-weight: bold;
+}
+
+.cmnt-text-cntr > .cmnt-date {
+    font-size: x-small;
+}
+
+.prfl-icon-cntr {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    background-color: #f0f0f0;
+}
+
+.prfl-icon {
+    height: 30px;
+}
+
+.cmts-hdng {
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
