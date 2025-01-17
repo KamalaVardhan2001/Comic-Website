@@ -1,0 +1,1 @@
+This is a comprehensive comic reading platform where users can explore, read, and enjoy comics in their preferred format. Whether you're a fan of scrolling through webcomics and manhwas or flipping through the classic pages of comic books and mangas, this repository has you covered!
